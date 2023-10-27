@@ -86,3 +86,85 @@ td{
 
 }
 
+/*CONFIGURAÇÕES MOBILE*/
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #5778A9;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    img {
+      
+        padding: 10px; /* Reduz o padding */
+      max-width: 100%; /* Aumenta a largura máxima */
+      
+      
+    }
+  
+    nav {
+      text-align: center;
+      font-size: 12pt; /* Reduz o tamanho da fonte */
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    li {
+      display: block; /* Altera para layout de bloco */
+      margin-right: 0; /* Remove a margem à direita */
+      margin-bottom: 10px; /* Adiciona margem inferior */
+    }
+  
+    a {
+      display: block; 
+      margin-bottom: 10px; 
+    }
+  
+    a:hover {
+      background-image: url(hover.png); 
+    }
+  
+    h1, h2 {
+      text-align: center;
+    }
+  
+    p {
+      text-align: justify;
+      margin: 10px auto; 
+      border-radius: 5px;
+      background-color: rgba(0, 0, 0, 0.493);
+      color: rgb(255, 255, 255);
+      max-width: 100%; 
+      width: 90%;
+      padding: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      box-shadow: 6px 6px 7px black;
+    }
+  
+    span {
+      display: block;
+      text-align: center;
+    }
+  
+    table {
+      margin-top: 20px; 
+    }
+  
+    td {
+      vertical-align: top;
+    }
+  
+    
+  }
+  
