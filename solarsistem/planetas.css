@@ -1,0 +1,40 @@
+body{
+    background-image: url(../Imagens/backgroud2.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+   padding: 10px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+.custom-button {
+    position: fixed;
+    right: 0;
+    background-color: rgb(82, 90, 92);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 6px;
+    display: block;
+    right: 10px;
+}
+
+.home {
+    bottom: 15px;
+}
+
+.sistema-solar {
+    bottom: 55px; 
+    
+}
+
