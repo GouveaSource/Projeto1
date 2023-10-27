@@ -38,29 +38,8 @@ a {
 }
 
 a:hover {
-    background-color: black;
+    background-image: url(hover.png);
 }
-
-
-/*nav{
-    text-align: center;
-    font-size: 15pt;
-
-}
-
-a{
-    color: white;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.233);
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 30px;
-    
-}
-
-a:hover{
-    background-color: black
-} */
 
 h1{
     text-align: center;
@@ -71,7 +50,7 @@ h2{
 }
 
 p{
-    text-align: center;
+    text-align: justify;
     margin: auto;
     margin-top: 70px;
     border-radius: 5px;
@@ -83,8 +62,14 @@ p{
     padding-top: 15px;
     padding-bottom: 15px;
     box-shadow: 6px 6px 7px black;
-    
 }
+
+span{
+    display: block;
+    text-align: center;
+}
+
+
 
 
 table{
