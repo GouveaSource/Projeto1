@@ -1,6 +1,6 @@
 body{
     background-image: url(../Imagens/backgroud2.png);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Candara, sans-serif;
     color: white;
     font-size: 1em;
 }
@@ -24,7 +24,7 @@ li{
     border-radius: 3px;
     color: white;
     text-decoration: none;
-    padding: 8px 6px;
+    padding: 9px 6px;
     display: block;
     right: 10px;
 }
