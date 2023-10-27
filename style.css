@@ -56,7 +56,7 @@ p{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.493);
     color: rgb(255, 255, 255);
-    max-width: 700px;
+    max-width: 628px;
     width: 90%;
     padding: 10px;
     padding-top: 15px;
@@ -88,7 +88,7 @@ td{
 
 /*CONFIGURAÇÕES MOBILE*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     body {
       background-color: #5778A9;
       font-family: Arial, Helvetica, sans-serif;
@@ -164,7 +164,13 @@ td{
     td {
       vertical-align: top;
     }
-  
-    
+
   }
   
+  #footer{
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 367px;
+    color: #fff; 
+    text-align: center; 
+    padding: 6px;
+  }
