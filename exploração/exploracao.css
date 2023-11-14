@@ -20,7 +20,7 @@ section {
     margin: 10px;
     border: 3px solid #000;
     max-width: 300px; 
-    min-height: 250px;
+    min-height: 260px;
     position: relative;
     padding-bottom: 30px; /* Ajuste conforme necessário para garantir espaço suficiente para o botão */
 }
