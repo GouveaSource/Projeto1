@@ -22,8 +22,7 @@ section {
     max-width: 300px; 
     min-height: 260px;
     position: relative;
-    padding-bottom: 30px; /* Ajuste conforme necessário para garantir espaço suficiente para o botão */
-}
+    padding-bottom: 30px; 
 
 h1 {
     font-size: 2em;
@@ -83,8 +82,8 @@ p {
     }
 
     section {
-       
     margin: 10px auto; 
+    }
 
     
     .botao {
