@@ -1,40 +1,74 @@
-body{
-    background-image: url(../Imagens/backgroud2.png);
+body {
+    margin: 0;
+    padding: 0;
     font-family: Candara, sans-serif;
     color: white;
-    font-size: 1em;
+    position: relative; /* Adicione position: relative ao corpo para alinhar os botões com base nele */
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-ul{
-   padding: 10px;
+table {
+    width: 100%;
 }
 
-li{
+td {
+    vertical-align: top; /* Alinhar o conteúdo no topo da célula */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
     margin-bottom: 15px;
 }
 
 .custom-button {
-    position: fixed;
-    right: 0;
     background-color: rgb(82, 90, 92);
     border-radius: 3px;
     color: white;
     text-decoration: none;
     padding: 9px 6px;
-    display: block;
-    right: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    position: fixed;
 }
 
 .home {
     bottom: 15px;
+    right: 15px;
 }
 
 .sistema-solar {
-    bottom: 55px; 
-    
+    bottom: 55px;
+    right: 15px;
 }
 
+/* Estilos para tornar a imagem responsiva */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para ajustar o layout em telas menores */
+@media (max-width: 600px) {
+    table {
+        display: block;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    img {
+        margin-top: 20px;
+    }
+}
