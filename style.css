@@ -62,7 +62,7 @@ p{
     padding: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    box-shadow: 6px 6px 7px black;
+    box-shadow: 4px 4px 13px #000000c4;
 }
 
 span{
@@ -89,7 +89,7 @@ td{
 
 /*CONFIGURAÇÕES MOBILE*/
 
-@media screen and (max-width: 1185px) {
+@media screen and (max-width: px) {
     body {
       background-color: #5778A9;
       font-family: Arial, Helvetica, sans-serif;
@@ -150,7 +150,7 @@ td{
       padding: 10px;
       padding-top: 15px;
       padding-bottom: 15px;
-      box-shadow: 6px 6px 7px black;
+      box-shadow: 4px 4px 13px #000000c4;
     }
   
     span {
