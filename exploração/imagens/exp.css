@@ -1,0 +1,49 @@
+
+body {
+    background-color: #5778A9;
+    font-family: Candara, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.table {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #48618a;
+    border-spacing: 25px;
+}
+
+td {
+    text-align: center;
+}
+
+.fundo{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.custom-button {
+    background-color: rgb(82, 90, 92);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    padding: 9px 6px;
+    display: inline-block;
+    margin-top: 20px;
+    position: fixed;
+}
+
+.home {
+    bottom: 15px;
+    right: 15px;
+}
+
+.sistema-solar {
+    bottom: 55px;
+    right: 15px;
+}
+
